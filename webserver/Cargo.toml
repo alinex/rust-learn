@@ -7,3 +7,7 @@ authors = ["alinex <info@alinex.de>"]
 iron = "0.5.1"
 staticfile = "0.4.0"
 mount = "0.3.0"
+
+[profile.release]
+lto = true
+panic = 'abort'
